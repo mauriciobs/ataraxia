@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:stretchColumns="*"
+        tools:ignore="UselessParent">
+        <TableRow
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/btn_invers"
+                style="@style/btnStyle"
+                android:text="@string/mis_inversiones"
+                android:drawableRight="@drawable/button_drawable"
+                tools:ignore="RtlHardcoded" />
+        </TableRow>
+        <TableRow android:layout_weight="1">
+            <Button
+                android:id="@+id/btn_notficacion"
+                style="@style/btnStyle"
+                android:drawableRight="@drawable/button_drawable"
+                android:text="@string/notificaciones"
+                tools:ignore="RtlHardcoded" />
+        </TableRow>
+        <TableRow android:layout_weight="1">
+            <Button
+                android:id="@+id/btn_educacion"
+                style="@style/btnStyle"
+                android:drawableRight="@drawable/button_drawable"
+                android:text="@string/educaci_n"
+                tools:ignore="RtlHardcoded" />
+        </TableRow>
+        <TableRow android:layout_weight="1">
+            <Button
+                android:id="@+id/btn_contacto"
+                style="@style/btnStyle"
+                android:drawableRight="@drawable/button_drawable"
+                android:text="@string/contacto"
+                tools:ignore="RtlHardcoded" />
+        </TableRow>
+    </TableLayout>
+</FrameLayout>

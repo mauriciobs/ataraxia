@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ataraxia</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="enter_you_email">Correo electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="politica">Acepto la <font color='#01C6DB'>politica de tratamiento de datos</font></string>
+    <string name="olvido_contrasena">Si olvidaste tu contraseña o tienes alguna duda, puedes contactarnos a nuestro correo contacto@contentgrp.com y atenderemos tus inquietudes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="mis_inversiones">Mis inversiones</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="educaci_n">Educación</string>
+    <string name="contacto">Contacto</string>
+</resources>
